@@ -1,0 +1,18 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.babu{
+    color: rgb(243, 75, 14);
+}
+.bro{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.bro img{
+    width: 100%;
+}
