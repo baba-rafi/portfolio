@@ -1,8 +1,15 @@
 body{
+    margin: 0px;
     font-family: 'Ubuntu', sans-serif;
 }
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgrey;
 }
 .babu{
     color: rgb(243, 75, 14);
@@ -15,4 +22,56 @@ h1{
 }
 .bro img{
     width: 100%;
+}
+.honey{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+#lol{
+    height: 400px;
+    width: 400px;
+    align-items: center;
+}
+#big{
+    height: 400px;
+    width: 400px;
+    align-items: center;
+}
+.core{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(245, 114, 171), rgb(255, 0, 170));
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: white;
+}
+.dream{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.vai{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 60%;
+}
+.bg{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#bal{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg ,rgb(241, 109, 109) ,red);
+    border-image-slice:1 ;
+}
+#chal{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg ,rgb(153, 152, 245) ,blue);
+    border-image-slice:1 ;
+}
+#rak{
+    text-align: center;
 }
